@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:ital,wght@0,300;1,600&display=swap');
+
+html{
+  font-size: 125%;
+    padding: 0;
+    margin: 0;
+    color: whitesmoke;
+    background-image: url(../assets/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+}
+.wrapper{
+  max-width: 1260px;
+  width: 85%;
+  margin: 0 auto;
+}
+.App {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+ul {
+  list-style: none;
+}
+.header{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+}
+.paragraph{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgba(4, 7, 12, 0.295);
+  padding-top: 40px;
+
+}
+
+#aries,
+#taurus,
+#gemini,
+#cancer,
+#leo,
+#virgo,
+#libra,
+#scorpio,
+#sagittarius,
+#capricorn,
+#aquarius,
+#pisces{
+height: 120px;
+padding-top: 32px;
+width: 210px;
+text-align: center;
+display: flex;
+flex-direction: column;
+margin:15px;
+background-color: rgba(4, 7, 12, 0.295);
+text-transform: uppercase;
+border-radius: 0.3rem;
+color: whitesmoke;
+font-size: 25px;
+font-family: 'Montserrat', sans-serif;
+border: 1px solid whitesmoke;
+}
+
+.dayOptions{
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(4, 7, 12, 0.295);
+  padding: 20px 0;
+}
+#yesterday,
+#today,
+#tomorrow{
+  font-family: 'Raleway', sans-serif;
+  max-width: 100%;
+  width: calc(100%/3);
+  height: 40px;
+  margin: 7px;
+  color: whitesmoke;
+  border-radius: 0.3rem;
+  background-color: rgba(4, 7, 12, 0.295);
+  font-size: 23px;
+}
+
+.resultsSection{
+  background-color: rgba(4, 7, 12, 0.295);
+  padding: 20px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.footer{
+padding-top: 10px;
+font-family: 'Raleway', sans-serif;
+font-size: 20px;
+text-align: center;
+}
+ul{
+  text-align: center;
+}
+.buttons span{
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+#aries:hover,
+#aries:focus{
+  background-color: rgba(11, 38, 85, 0.295);
+  border:2px solid whitesmoke;
+}
+#taurus:hover,
+#taurus:focus{
+  background-color: rgba(11, 38, 85, 0.295);
+  border:2px solid whitesmoke;
+}
+#gemini:hover,
+#gemini:focus{
+  background-color: rgba(11, 38, 85, 0.295);
+  border:2px solid whitesmoke;
+}
+
+#cancer:hover,
+#cancer:focus{
+  background-color: rgba(11, 38, 85, 0.295);
+  border:2px solid whitesmoke;
+}
+#leo:hover,
+#leo:focus{
+  background-color: rgba(11, 38, 85, 0.295);
+  border:2px solid whitesmoke;
+}
+#virgo:hover,
+#virgo:focus{
+  background-color: rgba(11, 38, 85, 0.295);
+  border:2px solid whitesmoke;
+}
+#libra:hover,
+#libra:focus{
+  background-color: rgba(11, 38, 85, 0.295);
+  border:2px solid whitesmoke;
+}
+#scorpio:hover,
+#scorpio:focus{
+  background-color: rgba(11, 38, 85, 0.295);
+  border:2px solid whitesmoke;
+}
+#sagittarius:hover,
+#sagittarius:focus{
+  background-color: rgba(11, 38, 85, 0.295);
+  border:2px solid whitesmoke;
+}
+#capricorn:hover,
+#capricorn:focus{
+  background-color: rgba(11, 38, 85, 0.295);
+  border:2px solid whitesmoke;
+}
+#aquarius:hover,
+#aquarius:focus{
+  background-color: rgba(11, 38, 85, 0.295);
+  border:2px solid whitesmoke;
+}
+#pisces:hover,
+#pisces:focus{
+  background-color: rgba(11, 38, 85, 0.295);
+  border:2px solid whitesmoke;
+}
+#yesterday:hover,
+#yesterday:focus{
+  background-color: rgba(11, 38, 85, 0.295);
+  border:2px solid whitesmoke;
+}
+
+#yesterday:hover,
+#yesterday:focus{
+  background-color: rgba(11, 38, 85, 0.295);
+  border:2px solid whitesmoke;
+}
+#today:hover,
+#today:focus{
+  background-color: rgba(11, 38, 85, 0.295);
+  border:2px solid whitesmoke;
+}
+#tomorrow:hover,
+#tomorrow:focus{
+  background-color: rgba(11, 38, 85, 0.295);
+  border:2px solid whitesmoke;
+}
+
+@media (max-width: 700px){
+  .buttons{
+    padding: 0;
+    margin: 0;
+}
+}
+
+@media (max-width: 774px){
+  .resultsSection{
+    font-size: 22px;
+  }
+#yesterday,
+#today,
+#tomorrow{
+  display: flex;
+justify-content: center;
+flex-wrap: wrap;
+width: 90%;
+}
+} 
+
+@media (max-width: 525px){
+  .header{
+    font-size: 26px;
+  }
+  .header h2{
+    font-size: 21px;
+  }
+#yesterday,
+#today,
+#tomorrow{
+  font-size: 22px;
+}
+}
+
+@media (max-width: 410px){
+  .header{
+    font-size: 20px;
+  }
+  .header h2{
+    font-size: 18px;
+  }
+  .buttons span{
+    font-size: 18px;
+  }
+#aries,
+#taurus,
+#gemini,
+#cancer,
+#leo,
+#virgo,
+#libra,
+#scorpio,
+#sagittarius,
+#capricorn,
+#aquarius,
+#pisces{
+  width: 200px;
+  height: 110px;
+  padding-top: 20px;
+  margin: 10px;
+  font-size: 22px;
+}
+.resultsSection,
+.footer{
+  font-size: 20px;
+}
+}
+
